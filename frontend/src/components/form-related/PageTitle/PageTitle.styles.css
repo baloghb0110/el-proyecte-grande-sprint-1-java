@@ -1,0 +1,11 @@
+.page-title {
+  & h1 {
+    width: fit-content;
+  }
+
+  & h1::after {
+    content: '';
+    display: block;
+    border-bottom: 0.2rem solid var(--primary-main-font-color);
+  }
+}

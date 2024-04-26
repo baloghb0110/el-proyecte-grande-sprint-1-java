@@ -1,0 +1,27 @@
+.add-category-modal {
+  width: 25%;
+  margin: 15% auto 0 auto;
+  color: var(--primary-main-font-color);
+  font-size: 1.4rem;
+  border: 0.1rem solid rgba(201, 198, 198, 0.6);
+  border-radius: 1.5rem;
+  background-color: var(--dark-background);
+
+  & .close-x-button {
+    position: absolute;
+    right: 0;
+    margin: 2.5rem 2.5rem 0 0;
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

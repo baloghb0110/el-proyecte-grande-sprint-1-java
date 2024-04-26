@@ -1,0 +1,35 @@
+body {
+  background-image: url('/src/assets/login_background.png');
+}
+
+.home-main-container {
+  width: 50rem;
+  margin: 5rem auto 0 auto;
+  border-radius: 2rem;
+  background-color: var(--dark-transparent-background);
+  border: 0.2rem solid var(--dark-transparent-background);
+  box-shadow: 0 0.4rem 0.4rem 0 var(--dark-transparent-background);
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+
+    & article {
+      text-align: center;
+    }
+
+    & .loading-icon {
+      margin: 5rem 0 0 0;
+      font-size: 3.5rem;
+    }
+  }
+
+  & .bottom-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5rem 5rem 5rem;
+  }
+}

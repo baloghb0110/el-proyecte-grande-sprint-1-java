@@ -1,0 +1,25 @@
+.window {
+  width: 30vw;
+  height: 60vh;
+  position: relative;
+  margin: 5rem 3rem 0 0;
+  border: 0.1rem solid rgba(201, 198, 198, 0.6);
+  padding: 1.8rem;
+  border-radius: 1.5rem;
+  background: var(--dark-transparent-background);
+  box-shadow: 0 0.8rem 0.8rem 0 rgba(0, 0, 0, 0.25);
+
+  & p {
+    margin: 2rem 0;
+  }
+
+  & h2 {
+    width: fit-content;
+  }
+
+  & h2::after {
+    content: '';
+    display: block;
+    border-bottom: 0.2rem solid var(--primary-main-font-color);
+  }
+}

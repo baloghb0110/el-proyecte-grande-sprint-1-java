@@ -1,0 +1,9 @@
+.track-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    && #track-tile-selector button{
+        margin: 2rem 1rem;
+    }
+}

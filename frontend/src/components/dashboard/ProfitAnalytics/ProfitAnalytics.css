@@ -1,0 +1,54 @@
+.profit-analytics-container {
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+.profit-sum {
+    font-size: 3vw;
+    filter: drop-shadow( 0 0 10px black);
+
+    margin-bottom: 5vh;
+}
+
+.positive-profit {
+    color: #306700;
+}
+
+.negative-profit {
+    color: #772a2a;
+
+}
+
+.profit-analytics-category-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profit-analytics-category {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+/*
+    border: 0.1rem solid rgba(201, 198, 198, 0.6);
+    border-radius: 1.5rem;
+
+    box-shadow: 0 0.8rem 0.8rem 0 rgba(0, 0, 0, 0.25);
+
+    padding: 1rem 1rem 0 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+
+ */
+}

@@ -1,0 +1,15 @@
+.home-title-element {
+  margin: 2.5rem 0 5rem 0;
+  font-size: 5rem;
+  font-weight: 400;
+  color: inherit;
+  text-align: center;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 33%;
+    margin: 2.5rem auto 5rem auto;
+    border-bottom: 0.5rem solid var(--primary-main-font-color);
+  }
+}

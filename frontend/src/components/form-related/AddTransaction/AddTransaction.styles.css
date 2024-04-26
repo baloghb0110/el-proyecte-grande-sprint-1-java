@@ -1,0 +1,22 @@
+.add-transaction {
+  height: 5rem;
+  width: 17.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 10rem auto;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  background-color: var(--primary-main);
+  border-radius: 0.75rem;
+
+  &:focus {
+    outline: 0.25rem solid var(--primary-main-font-color);
+  }
+
+  &:hover {
+    background-color: var(--primary-background);
+  }
+}

@@ -1,0 +1,27 @@
+.select-component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5rem 0 0 0;
+
+  & select {
+    height: 5rem;
+    width: 15rem;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: inherit;
+    color: inherit;
+    background-color: var(--primary-main);
+    border-radius: 0.75rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--primary-background);
+    }
+
+    &:focus {
+      outline: 0.25rem solid var(--primary-main-font-color);
+    }
+  }
+}

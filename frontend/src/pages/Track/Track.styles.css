@@ -1,0 +1,7 @@
+.track-page {
+    padding: 0 5rem;
+
+    && .track-content {
+        display: flex;
+    }
+}

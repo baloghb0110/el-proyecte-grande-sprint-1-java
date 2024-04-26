@@ -1,0 +1,13 @@
+.form-swap-button {
+  height: 5rem;
+  padding: 0 1.5rem 0 1.5rem;
+  font-size: 2rem;
+  color: var(--primary-main-font-color);
+  font-family: inherit;
+  background-color: var(--primary-main);
+  border-radius: 0.75rem;
+
+  &:focus {
+    outline: 0.25rem solid var(--primary-main-font-color);
+  }
+}

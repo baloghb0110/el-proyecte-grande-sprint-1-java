@@ -1,0 +1,21 @@
+.track-date-selector {
+    padding: 1rem;
+
+    && input, && select {
+        color: #0C101F;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        border-radius: 4rem;
+        border: .1rem solid var(--primary-main-font-color);
+        background: var(--primary-main-font-color);
+        box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+        margin: 0 .5rem;
+        padding: .25rem;
+        width: 10rem;
+    }
+
+    && select {
+        cursor: pointer;
+    }
+}

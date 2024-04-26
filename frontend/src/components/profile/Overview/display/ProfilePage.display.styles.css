@@ -1,0 +1,68 @@
+.profile-page-overview {
+    border: 0.1rem solid rgba(201, 198, 198, 0.6);
+    padding: 2.8rem 0;
+    border-radius: 1rem;
+    background: rgba(25, 25, 27, 0.81);
+    box-shadow: 0 0.8rem 0.8rem 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:auto;
+    margin-top: 5rem;
+    max-width: 45rem;
+
+  & .overview-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+  }
+
+  & .line {
+    height: 1px;
+    margin: 1rem;
+    width: 50%;
+    background: #fdfafa;
+  }
+
+  && .loading-icon {
+    font-size: 2vw;
+  }
+
+  && button {
+    height: 5rem;
+    width: 17.5rem;
+    margin: 2rem 0 0 0;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    background-color: var(--primary-main);
+    border-radius: 0.75rem;
+    cursor: pointer;
+
+    &:focus {
+      outline: 0.25rem solid var(--primary-main-font-color);
+    }
+
+    &:hover {
+      background-color: var(--primary-background);
+    }
+  }
+
+  .profile-page-overview-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.75);
+    border-radius: inherit;
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+}
+}

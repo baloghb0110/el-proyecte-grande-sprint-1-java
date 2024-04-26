@@ -1,0 +1,45 @@
+.add-transaction-modal {
+  width: 35%;
+  margin: 5% auto 0 auto;
+  color: var(--primary-main-font-color);
+  font-size: 1.4rem;
+  border: 0.1rem solid rgba(201, 198, 198, 0.6);
+  border-radius: 1.5rem;
+  background-color: var(--dark-background);
+
+  & .close-x-button {
+    position: absolute;
+    right: 0;
+    margin: 2.5rem 2.5rem 0 0;
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & article {
+      text-align: center;
+    }
+
+    & input[type='date'],
+    & input[type='number'] {
+      width: 20rem;
+    }
+
+    & input[type='checkbox'] {
+      margin: 5rem 0 0 0;
+    }
+  }
+
+  & .transaction-loading-icon {
+    font-size: 2rem;
+    padding: 2.5rem 0 2.5rem 0;
+  }
+}

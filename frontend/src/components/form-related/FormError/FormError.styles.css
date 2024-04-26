@@ -1,0 +1,6 @@
+.form-error-message {
+  margin: 2.5rem 3.5rem 2.5rem 3.5rem;
+  text-align: center;
+  color: var(--warning);
+  font-weight: 700;
+}

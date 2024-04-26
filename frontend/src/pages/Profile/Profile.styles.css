@@ -1,0 +1,48 @@
+.profile-page {
+  padding: 0 5rem;
+
+  && .button-component-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem 0 0 0;
+  }
+
+  && .input-component-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.0rem 0 0 0;
+  }
+
+  && input {
+    height: 4rem;
+    width: 30rem;
+    margin: 1rem 0 0 0;
+    padding: 0 0 0 2.5rem;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    background-color: var(--primary-main);
+    border-radius: 0.75rem;
+
+    &::placeholder {
+      color: var(--primary-main-font-color);
+      font-size: 1.5rem;
+      letter-spacing: 0.15rem;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+
+    &:focus {
+      outline: 0.25rem solid var(--primary-main-font-color);
+    }
+
+    &:hover {
+      background-color: var(--primary-background);
+    }
+  }
+
+}

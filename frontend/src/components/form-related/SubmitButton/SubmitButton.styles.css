@@ -1,0 +1,20 @@
+.form-submit-button {
+  height: 5rem;
+  width: 17.5rem;
+  margin: 5rem 0 2.5rem 0;
+  font-size: 2rem;
+  font-family: inherit;
+  letter-spacing: 0.25rem;
+  color: var(--primary-main-font-color);
+  background-color: var(--primary-main);
+  border-radius: 0.75rem;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0.25rem solid var(--primary-main-font-color);
+  }
+
+  &:hover {
+    background-color: var(--primary-background);
+  }
+}

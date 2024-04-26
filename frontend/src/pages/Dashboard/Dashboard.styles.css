@@ -1,0 +1,12 @@
+.dashboard-page {
+  padding: 0 5rem;
+
+  & .dashboard-window-container {
+    padding: 4rem 0;
+    display: inline-flex;
+  }
+}
+
+.blur {
+  filter: blur(0.25rem);
+}

@@ -1,0 +1,14 @@
+.transaction-slide {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    & button {
+        color: white;
+        background-color: transparent;
+
+        cursor: pointer;
+    }
+}
